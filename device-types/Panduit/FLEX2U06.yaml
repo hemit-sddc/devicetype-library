@@ -1,0 +1,12 @@
+manufacturer: Panduit
+model: FLEX2U06
+slug: flex2u06
+part_number: FLEX2U06
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+devie-bays:
+  - name: 1/1
+  - name: 1/2
+  - name: 2/1
+  - name: 2/2
