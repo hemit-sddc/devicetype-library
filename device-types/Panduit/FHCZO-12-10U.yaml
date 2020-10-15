@@ -5,3 +5,26 @@ part_number: FHCZO-12-10U
 u_height: 0
 is_full_depth: false
 subdevice_role: child
+rear-ports:
+  - name: 1
+    type: mpo
+    positions: 6
+front-ports:
+  - name: 1
+    type: lc
+    rear_port: 1
+  - name: 2
+    type: lc
+    rear_port: 1
+  - name: 3
+    type: lc
+    rear_port: 1
+  - name: 4
+    type: lc
+    rear_port: 1
+  - name: 5
+    type: lc
+    rear_port: 1
+  - name: 6
+    type: lc
+    rear_port: 1
