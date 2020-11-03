@@ -1,0 +1,58 @@
+manufacturer: F5
+model: i5800
+slug: i5800
+part_number: F5-BIG-BT-I5800
+u_height: 1
+is_full_depth: true
+console-ports:
+- name: Con
+  type: rj-45
+power-ports:
+- name: PS-0
+  type: iec-60320-c14
+  maximum_draw: 330
+- name: PS-1
+  type: iec-60320-c14
+  maximum_draw: 330
+interfaces:
+- name: 1.1
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: 1.2
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: 1.3
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: 1.4
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: 2.1
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: 2.2
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: 2.3
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: 2.4
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: 3.0
+  type: 40gbase-x-qsfpp
+  mgmt_only: false
+- name: 4.0
+  type: 40gbase-x-qsfpp
+  mgmt_only: false
+- name: 5.0
+  type: 40gbase-x-qsfpp
+  mgmt_only: false
+- name: 6.0
+  type: 40gbase-x-qsfpp
+- name: MGMT
+  type: 1000base-t
+  mgmt_only: true
+- name: FAILOVER
+  type: 1000base-t
+  mgmt_only: false
